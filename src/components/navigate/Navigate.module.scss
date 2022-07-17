@@ -1,0 +1,141 @@
+.wrap {
+
+}
+
+body {
+  background: url("../../assets/img/fon.jpg")  0 0/cover no-repeat;
+}
+
+
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding: 0;
+  width: 50%;
+  margin: 50px auto;
+  list-style: none;
+  justify-content: center
+}
+
+.item_nav {
+  width: 100px;
+  height: 100px;
+  background-color: #e9fdf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #57dac1;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+}
+
+.active {
+  background-color: #f32121;
+}
+
+.button {
+  font-family: "Roboto Bold";
+  height: 50px;
+  font-size: 30px;
+}
+
+
+.btn {
+  width: 200px;
+  display: block;
+  box-sizing: border-box;
+  padding: 4px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  height: 50px;
+  line-height: 37px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  background-color: #05cd51;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  transition: box-shadow .18s ease-out, background .18s ease-out, color .18s ease-out;
+}
+
+.btn:focus-visible {
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+.btn:hover {
+  box-shadow: 0 1px 1px 0 #cfcfcf, 0 2px 5px 0 #cfcfcf;
+}
+
+.btn:active {
+  background-color: #058c38 !important;
+}
+
+.btn:disabled {
+  background-color: #aed2bc;
+  color: #444;
+  pointer-events: none;
+}
+
+.level {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  & .level_item {
+    img {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      transition: all .3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  & .number {
+    font-family: "Roboto Bold";
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid  #05cd51;
+    font-size: 30px;
+    text-align: center;
+    span {
+      font-size: 20px;
+    }
+  }
+}
+
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+}
