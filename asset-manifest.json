@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LabirintGame/static/css/main.a99fae43.css",
+    "main.js": "/LabirintGame/static/js/main.2949ec35.js",
+    "static/media/fon.jpg": "/LabirintGame/static/media/fon.14ac4215f0b657e17db4.jpg",
+    "static/media/start.png": "/LabirintGame/static/media/start.456f46a2e1b8caaaf0b8.png",
+    "static/media/down-arrow.png": "/LabirintGame/static/media/down-arrow.06ea7e12f356e73cec04.png",
+    "static/media/up-arrow.png": "/LabirintGame/static/media/up-arrow.73c11ab55d32b5a1d882.png",
+    "index.html": "/LabirintGame/index.html",
+    "main.a99fae43.css.map": "/LabirintGame/static/css/main.a99fae43.css.map",
+    "main.2949ec35.js.map": "/LabirintGame/static/js/main.2949ec35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a99fae43.css",
+    "static/js/main.2949ec35.js"
+  ]
+}
